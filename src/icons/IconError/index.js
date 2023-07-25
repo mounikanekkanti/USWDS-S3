@@ -1,0 +1,1 @@
+export { IconError } from "./IconError";

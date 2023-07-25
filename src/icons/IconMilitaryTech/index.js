@@ -1,0 +1,1 @@
+export { IconMilitaryTech } from "./IconMilitaryTech";

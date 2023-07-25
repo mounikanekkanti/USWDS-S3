@@ -1,0 +1,1 @@
+export { IconSupportAgent } from "./IconSupportAgent";

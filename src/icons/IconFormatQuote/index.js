@@ -1,0 +1,1 @@
+export { IconFormatQuote } from "./IconFormatQuote";

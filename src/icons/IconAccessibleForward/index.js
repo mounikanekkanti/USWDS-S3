@@ -1,0 +1,1 @@
+export { IconAccessibleForward } from "./IconAccessibleForward";

@@ -1,0 +1,1 @@
+export { IconSentimentDissatisfied } from "./IconSentimentDissatisfied";

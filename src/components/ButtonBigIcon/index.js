@@ -1,0 +1,1 @@
+export { ButtonBigIcon } from "./ButtonBigIcon";

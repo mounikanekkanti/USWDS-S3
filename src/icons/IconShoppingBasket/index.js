@@ -1,0 +1,1 @@
+export { IconShoppingBasket } from "./IconShoppingBasket";

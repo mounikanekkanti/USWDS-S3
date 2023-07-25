@@ -1,0 +1,24 @@
+.frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.frame .FAQ-filter-topic-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.frame .icon-instance-node {
+  height: 36px !important;
+  position: relative !important;
+  width: 36px !important;
+}
+
+.frame .icon-arrow-forward {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}

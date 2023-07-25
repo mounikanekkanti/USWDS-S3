@@ -1,0 +1,1 @@
+export { IconAttachFile } from "./IconAttachFile";

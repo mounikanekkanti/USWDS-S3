@@ -1,0 +1,27 @@
+.load-more {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.load-more .text-wrapper-16 {
+  color: #005ea2;
+  font-family: var(--intro-font-family);
+  font-size: var(--intro-font-size);
+  font-style: var(--intro-font-style);
+  font-weight: var(--intro-font-weight);
+  letter-spacing: var(--intro-letter-spacing);
+  line-height: var(--intro-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.load-more .icon-76 {
+  height: 50px !important;
+  position: relative !important;
+  width: 50px !important;
+}

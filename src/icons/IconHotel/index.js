@@ -1,0 +1,1 @@
+export { IconHotel } from "./IconHotel";

@@ -1,0 +1,1 @@
+export { IconHelp } from "./IconHelp";

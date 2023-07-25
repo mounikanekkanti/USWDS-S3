@@ -1,0 +1,1 @@
+export { IconMailOutline } from "./IconMailOutline";

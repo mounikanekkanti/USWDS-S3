@@ -1,0 +1,1 @@
+export { IconPhotoCamera } from "./IconPhotoCamera";

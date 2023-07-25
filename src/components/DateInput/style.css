@@ -1,0 +1,1027 @@
+.date-input {
+  position: relative;
+  width: 308px;
+}
+
+.date-input .text-input-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.date-input .icon-calendar-today-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 4px;
+  position: relative;
+}
+
+.date-input .icon-calendar-today {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.date-input .overlap-2 {
+  position: absolute;
+}
+
+.date-input .rectangle-2 {
+  background-color: var(--basebase-lightest);
+  height: 40px;
+  position: absolute;
+  width: 42px;
+}
+
+.date-input .div-2 {
+  align-items: flex-end;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 308px;
+}
+
+.date-input .text-input-2 {
+  background-image: url(../../../static/img/vector-38.svg) !important;
+}
+
+.date-input .text-input-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.date-input .frame-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.date-input .text-input-label-i {
+  align-self: stretch;
+  color: #1b1b1b;
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.date-input .helper-text-i {
+  align-self: stretch;
+  color: var(--grayscalegray-50);
+  font-family: "Public Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+}
+
+.date-input .vector-wrapper {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.date-input .vector-13 {
+  height: 40px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 266px !important;
+}
+
+.date-input .calendar {
+  left: 0;
+  position: absolute;
+  width: 396px;
+}
+
+.date-input .overlap-group-4 {
+  background-size: 100% 100%;
+  position: relative;
+  width: 308px;
+}
+
+.date-input .overlap-3 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .text-wrapper-12 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 44px;
+}
+
+.date-input .text-wrapper-13 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 44px;
+}
+
+.date-input .element-2 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-3 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-4 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-5 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-6 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .overlap-4 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .element-7 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-8 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-9 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-10 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-11 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .overlap-5 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .element-12 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-13 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-14 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-15 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-16 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .overlap-6 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .element-17 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-18 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-19 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-20 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-21 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .overlap-7 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .element-22 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-23 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-24 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-25 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-26 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .overlap-8 {
+  height: 20px;
+  left: 222px;
+  position: absolute;
+  width: 86px;
+}
+
+.date-input .th {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .w {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .t {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .m {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .s {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 44px;
+}
+
+.date-input .element-27 {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}
+
+.date-input .april {
+  color: #1b1b1b;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 108px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}
+
+.date-input .class-4 {
+  height: 32px !important;
+  left: 227px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 32px !important;
+}
+
+.date-input .class-5 {
+  height: 32px !important;
+  left: 227px !important;
+  position: absolute !important;
+  top: 11px !important;
+  width: 32px !important;
+}
+
+.date-input .class-6 {
+  height: 32px !important;
+  left: 263px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 32px !important;
+}
+
+.date-input .class-7 {
+  height: 32px !important;
+  left: 263px !important;
+  position: absolute !important;
+  top: 11px !important;
+  width: 32px !important;
+}
+
+.date-input .class-8 {
+  height: 32px !important;
+  left: 42px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 32px !important;
+}
+
+.date-input .class-9 {
+  height: 32px !important;
+  left: 42px !important;
+  position: absolute !important;
+  top: 11px !important;
+  width: 32px !important;
+}
+
+.date-input .class-10 {
+  height: 32px !important;
+  left: 6px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 32px !important;
+}
+
+.date-input .class-11 {
+  height: 32px !important;
+  left: 6px !important;
+  position: absolute !important;
+  top: 11px !important;
+  width: 32px !important;
+}
+
+.date-input.open-false {
+  align-items: flex-end;
+  display: flex;
+}
+
+.date-input.hint-true.open-true {
+  height: 389px;
+}
+
+.date-input.hint-false.open-true {
+  height: 365px;
+}
+
+.date-input.hint-true .overlap-2 {
+  height: 89px;
+  left: -2px;
+  top: 3px;
+  width: 310px;
+}
+
+.date-input.hint-false .overlap-2 {
+  height: 68px;
+  left: 0;
+  top: 0;
+  width: 308px;
+}
+
+.date-input.hint-true .rectangle-2 {
+  left: 268px;
+  top: 49px;
+}
+
+.date-input.hint-false .rectangle-2 {
+  left: 266px;
+  top: 28px;
+}
+
+.date-input.hint-true .calendar {
+  height: 298px;
+  top: 92px;
+}
+
+.date-input.hint-false .calendar {
+  height: 299px;
+  top: 68px;
+}
+
+.date-input.hint-true .overlap-group-4 {
+  background-image: url(../../../static/img/rectangle-2.svg);
+  height: 298px;
+}
+
+.date-input.hint-false .overlap-group-4 {
+  background-image: url(../../../static/img/rectangle.svg);
+  height: 299px;
+}
+
+.date-input.hint-true .overlap-3 {
+  top: 261px;
+}
+
+.date-input.hint-false .overlap-3 {
+  top: 262px;
+}
+
+.date-input.hint-true .element-2 {
+  top: 261px;
+}
+
+.date-input.hint-false .element-2 {
+  top: 262px;
+}
+
+.date-input.hint-true .element-3 {
+  top: 261px;
+}
+
+.date-input.hint-false .element-3 {
+  top: 262px;
+}
+
+.date-input.hint-true .element-4 {
+  top: 261px;
+}
+
+.date-input.hint-false .element-4 {
+  top: 262px;
+}
+
+.date-input.hint-true .element-5 {
+  top: 261px;
+}
+
+.date-input.hint-false .element-5 {
+  top: 262px;
+}
+
+.date-input.hint-true .element-6 {
+  top: 261px;
+}
+
+.date-input.hint-false .element-6 {
+  top: 262px;
+}
+
+.date-input.hint-true .overlap-4 {
+  top: 221px;
+}
+
+.date-input.hint-false .overlap-4 {
+  top: 222px;
+}
+
+.date-input.hint-true .element-7 {
+  top: 221px;
+}
+
+.date-input.hint-false .element-7 {
+  top: 222px;
+}
+
+.date-input.hint-true .element-8 {
+  top: 221px;
+}
+
+.date-input.hint-false .element-8 {
+  top: 222px;
+}
+
+.date-input.hint-true .element-9 {
+  top: 221px;
+}
+
+.date-input.hint-false .element-9 {
+  top: 222px;
+}
+
+.date-input.hint-true .element-10 {
+  top: 221px;
+}
+
+.date-input.hint-false .element-10 {
+  top: 222px;
+}
+
+.date-input.hint-true .element-11 {
+  top: 221px;
+}
+
+.date-input.hint-false .element-11 {
+  top: 222px;
+}
+
+.date-input.hint-true .overlap-5 {
+  top: 181px;
+}
+
+.date-input.hint-false .overlap-5 {
+  top: 182px;
+}
+
+.date-input.hint-true .element-12 {
+  top: 181px;
+}
+
+.date-input.hint-false .element-12 {
+  top: 182px;
+}
+
+.date-input.hint-true .element-13 {
+  top: 181px;
+}
+
+.date-input.hint-false .element-13 {
+  top: 182px;
+}
+
+.date-input.hint-true .element-14 {
+  top: 181px;
+}
+
+.date-input.hint-false .element-14 {
+  top: 182px;
+}
+
+.date-input.hint-true .element-15 {
+  top: 181px;
+}
+
+.date-input.hint-false .element-15 {
+  top: 182px;
+}
+
+.date-input.hint-true .element-16 {
+  top: 181px;
+}
+
+.date-input.hint-false .element-16 {
+  top: 182px;
+}
+
+.date-input.hint-true .overlap-6 {
+  top: 141px;
+}
+
+.date-input.hint-false .overlap-6 {
+  top: 142px;
+}
+
+.date-input.hint-true .element-17 {
+  top: 141px;
+}
+
+.date-input.hint-false .element-17 {
+  top: 142px;
+}
+
+.date-input.hint-true .element-18 {
+  top: 141px;
+}
+
+.date-input.hint-false .element-18 {
+  top: 142px;
+}
+
+.date-input.hint-true .element-19 {
+  top: 141px;
+}
+
+.date-input.hint-false .element-19 {
+  top: 142px;
+}
+
+.date-input.hint-true .element-20 {
+  top: 141px;
+}
+
+.date-input.hint-false .element-20 {
+  top: 142px;
+}
+
+.date-input.hint-true .element-21 {
+  top: 141px;
+}
+
+.date-input.hint-false .element-21 {
+  top: 142px;
+}
+
+.date-input.hint-true .overlap-7 {
+  top: 101px;
+}
+
+.date-input.hint-false .overlap-7 {
+  top: 102px;
+}
+
+.date-input.hint-true .element-22 {
+  top: 101px;
+}
+
+.date-input.hint-false .element-22 {
+  top: 102px;
+}
+
+.date-input.hint-true .element-23 {
+  top: 101px;
+}
+
+.date-input.hint-false .element-23 {
+  top: 102px;
+}
+
+.date-input.hint-true .element-24 {
+  top: 101px;
+}
+
+.date-input.hint-false .element-24 {
+  top: 102px;
+}
+
+.date-input.hint-true .element-25 {
+  top: 101px;
+}
+
+.date-input.hint-false .element-25 {
+  top: 102px;
+}
+
+.date-input.hint-true .element-26 {
+  top: 101px;
+}
+
+.date-input.hint-false .element-26 {
+  top: 102px;
+}
+
+.date-input.hint-true .overlap-8 {
+  top: 58px;
+}
+
+.date-input.hint-false .overlap-8 {
+  top: 59px;
+}
+
+.date-input.hint-true .th {
+  top: 58px;
+}
+
+.date-input.hint-false .th {
+  top: 59px;
+}
+
+.date-input.hint-true .w {
+  top: 58px;
+}
+
+.date-input.hint-false .w {
+  top: 59px;
+}
+
+.date-input.hint-true .t {
+  top: 58px;
+}
+
+.date-input.hint-false .t {
+  top: 59px;
+}
+
+.date-input.hint-true .m {
+  top: 58px;
+}
+
+.date-input.hint-false .m {
+  top: 59px;
+}
+
+.date-input.hint-true .s {
+  top: 58px;
+}
+
+.date-input.hint-false .s {
+  top: 59px;
+}
+
+.date-input.hint-true .element-27 {
+  top: 15px;
+}
+
+.date-input.hint-false .element-27 {
+  top: 16px;
+}
+
+.date-input.hint-true .april {
+  top: 15px;
+}
+
+.date-input.hint-false .april {
+  top: 16px;
+}

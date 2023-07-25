@@ -1,0 +1,1 @@
+export { IconElectricalServices } from "./IconElectricalServices";

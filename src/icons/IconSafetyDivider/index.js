@@ -1,0 +1,1 @@
+export { IconSafetyDivider } from "./IconSafetyDivider";

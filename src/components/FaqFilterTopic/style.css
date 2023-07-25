@@ -1,0 +1,79 @@
+.FAQ-filter-topic {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 586px;
+}
+
+.FAQ-filter-topic .check-label-info {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 5px;
+  position: relative;
+}
+
+.FAQ-filter-topic .about-AGID {
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.FAQ-filter-topic .icon-27 {
+  height: 36px !important;
+  position: relative !important;
+  width: 36px !important;
+}
+
+.FAQ-filter-topic.subject {
+  background-color: var(--full-white);
+  border-color: var(--basebase);
+  padding: 20px 10px;
+}
+
+.FAQ-filter-topic.question {
+  background-color: var(--basebase-lightest);
+  border-color: #a9aeb1;
+  padding: 15px 10px 15px 20px;
+}
+
+.FAQ-filter-topic.selected {
+  background-color: var(--primaryprimary-lighter);
+  border-color: #005ea2;
+  padding: 15px 10px 15px 20px;
+}
+
+.FAQ-filter-topic.subject .about-AGID {
+  color: var(--basebase-dark);
+  font-family: var(--topic-label-font-family);
+  font-size: var(--topic-label-font-size);
+  font-style: var(--topic-label-font-style);
+  font-weight: var(--topic-label-font-weight);
+  letter-spacing: var(--topic-label-letter-spacing);
+  line-height: var(--topic-label-line-height);
+}
+
+.FAQ-filter-topic.question .about-AGID {
+  color: var(--basebase-dark);
+  font-family: var(--sub-topic-label-font-family);
+  font-size: var(--sub-topic-label-font-size);
+  font-style: var(--sub-topic-label-font-style);
+  font-weight: var(--sub-topic-label-font-weight);
+  letter-spacing: var(--sub-topic-label-letter-spacing);
+  line-height: var(--sub-topic-label-line-height);
+}
+
+.FAQ-filter-topic.selected .about-AGID {
+  color: #005ea2;
+  font-family: var(--sub-topic-label-font-family);
+  font-size: var(--sub-topic-label-font-size);
+  font-style: var(--sub-topic-label-font-style);
+  font-weight: var(--sub-topic-label-font-weight);
+  letter-spacing: var(--sub-topic-label-letter-spacing);
+  line-height: var(--sub-topic-label-line-height);
+}

@@ -1,0 +1,1 @@
+export { IconFormatSize } from "./IconFormatSize";

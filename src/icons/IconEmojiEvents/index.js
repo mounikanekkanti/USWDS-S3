@@ -1,0 +1,1 @@
+export { IconEmojiEvents } from "./IconEmojiEvents";

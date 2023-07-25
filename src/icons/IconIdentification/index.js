@@ -1,0 +1,1 @@
+export { IconIdentification } from "./IconIdentification";

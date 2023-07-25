@@ -1,0 +1,1 @@
+export { IconFastForward } from "./IconFastForward";

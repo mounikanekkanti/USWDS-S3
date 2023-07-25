@@ -1,0 +1,1 @@
+export { IconContactPage } from "./IconContactPage";

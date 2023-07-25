@@ -1,0 +1,102 @@
+.page-contact-wrapper {
+  align-items: flex-start;
+  background-color: var(--basebase-lightest);
+  border-color: #dfe1e2;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 1474px;
+  padding: 50px 60px 50px 30px;
+  position: relative;
+  width: 435px;
+}
+
+.page-contact-wrapper .contact-partners {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.page-contact-wrapper .contact-block-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.page-contact-wrapper .contact-block-2 {
+  white-space: unset !important;
+}
+
+.page-contact-wrapper .contact-block-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.page-contact-wrapper .AGID-glossary {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.page-contact-wrapper .definitions-for {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: relative;
+}
+
+.page-contact-wrapper .arrow-link-instance {
+  flex: 0 0 auto !important;
+}
+
+.page-contact-wrapper .arrow-link-2 {
+  color: #005ea2 !important;
+}
+
+.page-contact-wrapper .arrow-link-3 {
+  background-image: url(../../../static/img/icon-1.svg) !important;
+}
+
+.page-contact-wrapper .contact-partners-2 {
+  align-self: stretch;
+  color: var(--basebase-darker);
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  position: relative;
+  white-space: nowrap;
+}

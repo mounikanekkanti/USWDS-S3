@@ -1,0 +1,1 @@
+export { PageContactWrapper } from "./PageContactWrapper";

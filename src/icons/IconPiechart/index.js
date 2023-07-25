@@ -1,0 +1,1 @@
+export { IconPiechart } from "./IconPiechart";

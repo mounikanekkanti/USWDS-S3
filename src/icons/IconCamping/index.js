@@ -1,0 +1,1 @@
+export { IconCamping } from "./IconCamping";

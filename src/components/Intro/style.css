@@ -1,0 +1,97 @@
+.intro {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.intro .left {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(158, 202, 225) 47.92%, rgb(0, 94, 162) 97.25%);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #005ea2;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 1920px;
+}
+
+.intro .title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.intro .text-wrapper {
+  color: var(--basebase-darker);
+  font-family: var(--h1-font-family);
+  font-size: var(--h1-font-size);
+  font-style: var(--h1-font-style);
+  font-weight: var(--h1-font-weight);
+  letter-spacing: var(--h1-letter-spacing);
+  line-height: var(--h1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.intro .content {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.intro .the-aging {
+  color: var(--basebase-darker);
+  margin-top: -1px;
+  position: relative;
+}
+
+.intro .wide {
+  padding: 50px 0px 50px 60px;
+}
+
+.intro .default {
+  padding: 50px 0px 50px 212px;
+}
+
+.intro .left.wide .content {
+  display: flex;
+  width: 1125px;
+}
+
+.intro .left.default .content {
+  display: inline-flex;
+}
+
+.intro .left.wide .the-aging {
+  align-self: stretch;
+  font-family: var(--intro-font-family);
+  font-size: var(--intro-font-size);
+  font-style: var(--intro-font-style);
+  font-weight: var(--intro-font-weight);
+  letter-spacing: var(--intro-letter-spacing);
+  line-height: var(--intro-line-height);
+}
+
+.intro .left.default .the-aging {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  width: 738px;
+}

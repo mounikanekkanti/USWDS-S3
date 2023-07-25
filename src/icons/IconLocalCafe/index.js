@@ -1,0 +1,1 @@
+export { IconLocalCafe } from "./IconLocalCafe";

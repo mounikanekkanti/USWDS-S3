@@ -1,0 +1,1 @@
+export { IconWork } from "./IconWork";

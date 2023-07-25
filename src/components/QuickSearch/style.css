@@ -1,0 +1,29 @@
+.quick-search {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 325px;
+}
+
+.quick-search .text-wrapper-9 {
+  color: var(--basebase);
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 326px;
+}
+
+.quick-search .search-instance {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 100% !important;
+}

@@ -1,0 +1,1 @@
+export { IconLocalLaundryService } from "./IconLocalLaundryService";

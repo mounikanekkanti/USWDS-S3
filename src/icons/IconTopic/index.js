@@ -1,0 +1,1 @@
+export { IconTopic } from "./IconTopic";

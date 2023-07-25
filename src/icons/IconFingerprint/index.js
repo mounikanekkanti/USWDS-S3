@@ -1,0 +1,1 @@
+export { IconFingerprint } from "./IconFingerprint";

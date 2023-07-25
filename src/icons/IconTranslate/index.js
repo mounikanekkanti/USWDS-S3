@@ -1,0 +1,1 @@
+export { IconTranslate } from "./IconTranslate";

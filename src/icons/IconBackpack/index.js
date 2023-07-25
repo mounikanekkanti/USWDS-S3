@@ -1,0 +1,1 @@
+export { IconBackpack } from "./IconBackpack";

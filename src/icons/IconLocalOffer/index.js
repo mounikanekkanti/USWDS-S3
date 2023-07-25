@@ -1,0 +1,1 @@
+export { IconLocalOffer } from "./IconLocalOffer";

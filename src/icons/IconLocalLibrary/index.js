@@ -1,0 +1,1 @@
+export { IconLocalLibrary } from "./IconLocalLibrary";

@@ -1,0 +1,46 @@
+.button-big-icon {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 15px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.button-big-icon .play-the-video {
+  color: var(--full-white);
+  font-family: "Public Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -2px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-big-icon .icons-play {
+  height: 26px !important;
+  position: relative !important;
+  width: 26px !important;
+}
+
+.button-big-icon.state-3-disabled {
+  background-color: #c9c9c9;
+}
+
+.button-big-icon.state-3-active {
+  background-color: #162e51;
+}
+
+.button-big-icon.state-3-default {
+  background-color: #005ea2;
+}
+
+.button-big-icon.state-3-hover {
+  background-color: #1a4480;
+}

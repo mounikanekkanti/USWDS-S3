@@ -1,0 +1,1 @@
+export { IconLocalPharmacy } from "./IconLocalPharmacy";

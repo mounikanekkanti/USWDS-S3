@@ -1,0 +1,1 @@
+export { IconZoomOut } from "./IconZoomOut";

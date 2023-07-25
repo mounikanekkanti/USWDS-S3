@@ -1,0 +1,1 @@
+export { IconBathtub } from "./IconBathtub";

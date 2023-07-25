@@ -1,0 +1,1 @@
+export { IconFilterAlt } from "./IconFilterAlt";

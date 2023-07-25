@@ -1,0 +1,1 @@
+export { IconWash } from "./IconWash";

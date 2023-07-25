@@ -1,0 +1,1 @@
+export { IconLocalPolice } from "./IconLocalPolice";

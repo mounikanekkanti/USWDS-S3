@@ -1,0 +1,1 @@
+export { IconLocalFireDepartment } from "./IconLocalFireDepartment";

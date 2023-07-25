@@ -1,0 +1,1 @@
+export { IconFlight } from "./IconFlight";

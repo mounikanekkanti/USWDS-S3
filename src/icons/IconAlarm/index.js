@@ -1,0 +1,1 @@
+export { IconAlarm } from "./IconAlarm";

@@ -1,0 +1,1 @@
+export { IconUnfoldLess } from "./IconUnfoldLess";

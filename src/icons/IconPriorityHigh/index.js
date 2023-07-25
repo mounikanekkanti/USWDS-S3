@@ -1,0 +1,1 @@
+export { IconPriorityHigh } from "./IconPriorityHigh";

@@ -1,0 +1,1 @@
+export { IconVolumeOff } from "./IconVolumeOff";

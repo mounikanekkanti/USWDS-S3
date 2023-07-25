@@ -1,0 +1,1 @@
+export { FaqFilter } from "./FaqFilter";

@@ -1,0 +1,1 @@
+export { IconBedding } from "./IconBedding";

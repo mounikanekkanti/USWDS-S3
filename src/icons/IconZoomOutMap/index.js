@@ -1,0 +1,1 @@
+export { IconZoomOutMap } from "./IconZoomOutMap";

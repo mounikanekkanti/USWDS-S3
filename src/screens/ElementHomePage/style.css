@@ -1,0 +1,70 @@
+.element-home-page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-home-page .div-10 {
+  border: 1px none;
+  height: 7623px;
+  position: relative;
+  width: 1920px;
+}
+
+.element-home-page .homepage {
+  height: 7370px;
+  left: 0;
+  position: absolute;
+  top: 253px;
+  width: 1920px;
+}
+
+.element-home-page .header-3 {
+  background-color: #ffffff !important;
+  left: 0 !important;
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.element-home-page .header-4 {
+  background-image: url(../../../static/img/rectangle-59.svg) !important;
+  left: 384px !important;
+}
+
+.element-home-page .header-5 {
+  left: -1px !important;
+  width: 433px !important;
+}
+
+.element-home-page .header-6 {
+  width: 65px !important;
+}
+
+.element-home-page .frame-83 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 54px;
+  position: fixed;
+  top: 41px;
+}
+
+.element-home-page .coverimage {
+  height: 45px;
+  position: relative;
+  width: 30px;
+}
+
+.element-home-page .text-wrapper-28 {
+  color: #ffffff;
+  font-family: "Public Sans", Helvetica;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

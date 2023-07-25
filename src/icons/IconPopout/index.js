@@ -1,0 +1,1 @@
+export { IconPopout } from "./IconPopout";

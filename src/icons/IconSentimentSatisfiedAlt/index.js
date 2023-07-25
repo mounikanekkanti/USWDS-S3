@@ -1,0 +1,1 @@
+export { IconSentimentSatisfiedAlt } from "./IconSentimentSatisfiedAlt";

@@ -1,0 +1,1 @@
+export { IconVerified } from "./IconVerified";

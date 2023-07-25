@@ -1,0 +1,1 @@
+export { IconSortArrow } from "./IconSortArrow";

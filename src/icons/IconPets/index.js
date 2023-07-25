@@ -1,0 +1,1 @@
+export { IconPets } from "./IconPets";

@@ -1,0 +1,1 @@
+export { IconGroups } from "./IconGroups";

@@ -1,0 +1,1 @@
+export { IconTrendingDown } from "./IconTrendingDown";

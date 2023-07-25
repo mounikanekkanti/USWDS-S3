@@ -1,0 +1,1 @@
+export { IconMoreHoriz } from "./IconMoreHoriz";

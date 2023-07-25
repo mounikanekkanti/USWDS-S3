@@ -1,0 +1,1 @@
+export { IconDeviceThermostat } from "./IconDeviceThermostat";

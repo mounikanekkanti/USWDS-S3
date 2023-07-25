@@ -1,0 +1,1 @@
+export { IconComment } from "./IconComment";
