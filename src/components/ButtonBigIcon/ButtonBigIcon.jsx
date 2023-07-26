@@ -14,7 +14,7 @@ export const ButtonBigIcon = ({
   className,
   playTheVideoClassName,
   text = "Play the Video",
-  icon = <IconsPlay4 className="icons-play" color="#73B3E7" />,
+  icon = <IconsPlay4 className="icons-play" color="var( --colors-primary-primary-light)" />,
 }) => {
   return (
     <div className={`button-big-icon state-3-${state} ${className}`}>

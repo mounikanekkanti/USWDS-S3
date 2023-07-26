@@ -34,7 +34,7 @@
 }
 
 .button.state-1-active.primary {
-  background-color: #162e51;
+  background-color: var(--colors-primary-primary-darker);
 }
 
 .button.state-1-hover.base {
@@ -46,11 +46,11 @@
 }
 
 .button.state-1-active.secondary {
-  background-color: #162e51;
+  background-color: var(--colors-primary-primary-darker);
 }
 
 .button.state-1-default.primary {
-  background-color: #005ea2;
+  background-color: var(--colors-primary-primary);
 }
 
 .button.state-1-hover.accent-warm {
@@ -62,7 +62,7 @@
 }
 
 .button.outline.state-1-hover {
-  border-color: #1a4480;
+  border-color: var(--colors-primary-primary-dark);
 }
 
 .button.inverse.state-1-active {
@@ -70,11 +70,11 @@
 }
 
 .button.state-1-default.secondary {
-  background-color: var(--primaryprimary-vivid);
+  background-color:  var(--colors-primary-primary-vivid);
 }
 
 .button.state-1-hover.primary {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .button.inverse.state-1-default {
@@ -82,7 +82,7 @@
 }
 
 .button.state-1-hover.secondary {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .button.state-1-hover.success {
@@ -98,7 +98,7 @@
 }
 
 .button.outline.state-1-active {
-  border-color: #162e51;
+  border-color: var(--colors-primary-primary-darker);
 }
 
 .button.state-1-hover.inverse {
@@ -114,7 +114,7 @@
 }
 
 .button.outline.state-1-default {
-  border-color: #005ea2;
+  border-color: var(--colors-primary-primary);
 }
 
 .button.success.state-1-active {
@@ -225,7 +225,7 @@
 }
 
 .button.outline.state-1-hover .text-wrapper-11 {
-  color: #1a4480;
+  color: var(--colors-primary-primary-dark);
 }
 
 .button.state-1-hover.success .text-wrapper-11 {
@@ -241,7 +241,7 @@
 }
 
 .button.outline.state-1-default .text-wrapper-11 {
-  color: #005ea2;
+  color: var(--colors-primary-primary);
 }
 
 .button.success.state-1-active .text-wrapper-11 {

@@ -12,7 +12,7 @@
 .header .top-menu {
   align-items: flex-end;
   align-self: stretch;
-  background-color: #005ea2;
+  background-color: var(--colors-primary-primary) !important;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;

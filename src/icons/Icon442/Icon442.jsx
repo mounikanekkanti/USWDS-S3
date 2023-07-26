@@ -6,7 +6,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 
-export const Icon442 = ({ color = "#73B3E7", className }) => {
+export const Icon442 = ({ color = "var( --colors-primary-primary-light)", className }) => {
   return (
     <svg
       className={`icon-442 ${className}`}

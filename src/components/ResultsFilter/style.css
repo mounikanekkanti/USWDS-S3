@@ -105,19 +105,19 @@
 }
 
 .results-filter.on.data-report {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.on.release-notes {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.codebook.on {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.brief.on {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.data-set.off {
@@ -125,7 +125,7 @@
 }
 
 .results-filter.on.list-view {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.list-view.off {
@@ -135,11 +135,11 @@
 }
 
 .results-filter.data-set.on {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.grid-view.on {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }
 
 .results-filter.grid-view.off {

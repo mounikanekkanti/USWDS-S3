@@ -169,7 +169,7 @@
 
 .footer .site-map {
   align-items: flex-start;
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
   display: flex;
   flex: 0 0 auto;
   gap: 21px;
@@ -262,7 +262,7 @@
 
 .footer .identifier-default {
   align-items: flex-start;
-  background-color: #162e51;
+  background-color: var(--colors-primary-primary-darker);
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;

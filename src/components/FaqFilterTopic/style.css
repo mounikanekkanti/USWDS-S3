@@ -43,7 +43,7 @@
 }
 
 .FAQ-filter-topic.selected {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var(--colors-primary-primary-lighter);
   border-color: #005ea2;
   padding: 15px 10px 15px 20px;
 }

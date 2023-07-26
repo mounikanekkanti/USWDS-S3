@@ -119,7 +119,7 @@ export const Topics = ({
           )}
 
           {level === "suv-subtopic" && dataAvailable === "yes" && (
-            <Icon458 className="instance-node-7" color={selected ? "#73B3E7" : "#71767A"} />
+            <Icon458 className="instance-node-7" color={selected ? "var( --colors-primary-primary-light)" : "#71767A"} />
           )}
 
           {level === "sub-topic" && <Icon446 className="instance-node-6" />}
@@ -165,7 +165,7 @@ export const Topics = ({
               </div>
             )}
 
-            {level === "sub-topic" && <Icon442 className="instance-node-6" color="#73B3E7" />}
+            {level === "sub-topic" && <Icon442 className="instance-node-6" color="var( --colors-primary-primary-light)" />}
 
             {expanded && <Icon21 className="icon-9" color="#71767A" />}
 
@@ -173,7 +173,7 @@ export const Topics = ({
               <>
                 <Checkbox43 className="instance-node-7" />
                 <div className="text-wrapper-18">Sub-subtopic</div>
-                <Icon442 className="instance-node-7" color="#73B3E7" />
+                <Icon442 className="instance-node-7" color="var( --colors-primary-primary-light)" />
               </>
             )}
 
@@ -181,7 +181,7 @@ export const Topics = ({
               <>
                 <Checkbox72 className="instance-node-7" />
                 <div className="sub-subtopic-3">Sub-subtopic</div>
-                <Icon442 className="instance-node-7" color="#73B3E7" />
+                <Icon442 className="instance-node-7" color="var( --colors-primary-primary-light)" />
               </>
             )}
 

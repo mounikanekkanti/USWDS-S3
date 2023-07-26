@@ -6,7 +6,7 @@
 }
 
 .arrow-link .view-all-programs {
-  color: #162e51;
+  color: var(--colors-primary-primary-darker);
   font-family: "Public Sans", Helvetica;
   font-size: 16px;
   font-weight: 700;

@@ -300,7 +300,7 @@
 .topics .topic-list-item-3 {
   align-items: flex-start;
   align-self: stretch;
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
   border: 1px solid;
   border-color: var(--primaryprimary-light);
   display: flex;
@@ -424,11 +424,11 @@
 }
 
 .topics.selected-true.level-state {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.level-sub-subtopic-no-info.selected-true {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.level-suv-subtopic.info-false {
@@ -436,7 +436,7 @@
 }
 
 .topics.level-state-radio.selected-true {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.selected-false.level-release-note {
@@ -447,7 +447,7 @@
 }
 
 .topics.selected-true.level-suv-subtopic {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.unavailable-with-selected-data-set-unavailable-with-selected-data-set.level-suv-subtopic {
@@ -520,12 +520,12 @@
 }
 
 .topics.selected-true.level-sub-topic {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.selected-true.level-sub-topic-no-info {
   align-items: center;
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
   width: 369px;
 }
 
@@ -540,7 +540,7 @@
 }
 
 .topics.selected-true.level-release-note {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.selected-false.level-sub-topic {
@@ -645,7 +645,7 @@
 }
 
 .topics.level-geo-type.selected-true.expanded-0-true {
-  background-color: var(--primaryprimary-lighter);
+  background-color: var( --colors-primary-primary-lighter);
 }
 
 .topics.no.selected-false.level-state-radio {

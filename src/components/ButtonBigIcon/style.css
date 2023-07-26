@@ -34,7 +34,7 @@
 }
 
 .button-big-icon.state-3-active {
-  background-color: #162e51;
+  background-color: var(--colors-primary-primary-darker);
 }
 
 .button-big-icon.state-3-default {
@@ -42,5 +42,5 @@
 }
 
 .button-big-icon.state-3-hover {
-  background-color: #1a4480;
+  background-color: var(--colors-primary-primary-dark);
 }

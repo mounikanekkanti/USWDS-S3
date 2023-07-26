@@ -367,7 +367,7 @@
 
 .element-data-explorer .topics-4 {
   align-self: stretch !important;
-  background-color: #d9e8f6 !important;
+  background-color:var( --colors-primary-primary-lighter) !important;
   flex: 0 0 auto !important;
   width: 100% !important;
 }

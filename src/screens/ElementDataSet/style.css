@@ -25,7 +25,7 @@
 
 .element-data-set .splash {
   align-items: center;
-  background-color: #162e51;
+  background-color: var(--colors-primary-primary-darker);
   display: flex;
   flex: 0 0 auto;
   gap: 50px;
