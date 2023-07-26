@@ -54,7 +54,9 @@ function runTrans() {
       // var theme = JSON.stringify(tokens.base.themeToShow.value);
       // currentTheme = theme.substring(theme.indexOf(".") + 1, theme.indexOf("}"));
       
-      var setsToUse = tokens.core;
+      var setsToUse = [
+        "base"
+      ];
 
       // // Create Current Theme 
       // for (const theme in tokens.$themes) {
