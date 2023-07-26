@@ -57,4 +57,4 @@ StyleDictionary.registerFilter({
   //     }
   // },
 
-console.log("Completed!!! —Wow, now that is some slick coding!");
+console.log("Complete!");

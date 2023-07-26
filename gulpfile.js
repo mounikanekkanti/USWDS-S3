@@ -1,11 +1,11 @@
 // import gulp from 'gulp';
 const { watch, gulp } = require('gulp');
 const run = require('gulp-run');
-const { transformTokens } = require('token-transformer');
 const fs = require('fs');
-const setsToUse = ['vz-prime'];
-const excludes = [];
+
+const { transformTokens } = require('token-transformer');
 const { registerTransforms } = require('@tokens-studio/sd-transforms');
+const excludes = [];
 
 const transformerOptions = {
   expandTypography: true,
@@ -14,21 +14,23 @@ const transformerOptions = {
   expandBorder: true,
   preserveRawValue: false,
   throwErrorWhenNotResolved:  true,
-  resolveReferences:true
+  resolveReferences: true
 }
 
 const paths = {
   styles: {
     src: 'token/token.json',
-    dest: 'src/assets/tokenTrans.json'
+    dest: 'token/tokenTrans.json'
   }
 };
 
 exports.default = function() {
+  console.log("\n\n———————————————————————————————————————————————————————————————————\n::::  Gulp Watching File Change At  :  " + paths.styles.src + "  ::::\n———————————————————————————————————————————————————————————————————\n\n");
   watch(paths.styles.src, runTasks);
 };
 
 function runTasks() {
+  console.log("\n\n::::  " + paths.styles.src + " has been changed!  ::::\n");
   setTimeout(runTrans, 0);
 }
 
@@ -36,9 +38,10 @@ function runTasks() {
 
 var tokens;
 var resolved;
+var currentTheme = "";
 
 function runTrans() {
-  console.log("runTrans");
+  console.log("\n::::  Running Token Conversion  ::::\n");
   
   fs.readFile(paths.styles.src, 'utf8', function (err, data) {
     if (err) {
@@ -47,7 +50,19 @@ function runTrans() {
     } else {
       
       tokens = JSON.parse(data);
-      console.log("tokens " + tokens);
+      
+      var theme = JSON.stringify(tokens.base.themeToShow.value);
+      currentTheme = theme.substring(theme.indexOf(".") + 1, theme.indexOf("}"));
+      
+      var setsToUse = [];
+      // Create Current Theme 
+      for (const theme in tokens.$themes) {
+        for (const set in tokens.$themes[theme].selectedTokenSets) {
+          if(tokens.$themes[theme].name == currentTheme) {
+            setsToUse.push(set);
+          }
+        }
+      }
       
       
       // Start Token Transformer ———————————–
@@ -58,7 +73,6 @@ function runTrans() {
         transformerOptions
       );
       resolved = JSON.stringify(resolved);
-      console.log('resolved '+ resolved);
       // End Token Transformer ———————————–
       
       
@@ -67,9 +81,10 @@ function runTrans() {
             throw err;
           }
           else { 
-            console.log('It\'s Saved! '+ paths.styles.dest);
+            console.log("\n::::  Saved Transformed Tokens At :: "+ paths.styles.dest + "  ::::\n\n");
             
             watch(paths.styles.src, runTasks);
+            
             return run('npm run styleBuild').exec();
           }
       });
