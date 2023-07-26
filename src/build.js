@@ -9,10 +9,10 @@ StyleDictionary.registerFilter({
     name: 'descriptionFilter',
     matcher: function(token) {
       // Source for incoming token
-			const desc = token.original.name;
-			if (desc) {
-				return desc === 'vz-color-comp-vz-color-grey-vz-color-grey-3' || desc === 'vz-color-comp-vz-color-grey-vz-color-grey-4';
-			}
+      const desc = token.original.name;
+      if (desc) {
+        return desc === 'vz-color-comp-vz-color-grey-vz-color-grey-3' || desc === 'vz-color-comp-vz-color-grey-vz-color-grey-4';
+      }
     }
   });
 
@@ -42,7 +42,7 @@ StyleDictionary.registerFilter({
     }
   })
 
-	// const StyleDictionaryExtended = StyleDictionary.extend('./src/config.json');
+  // const StyleDictionaryExtended = StyleDictionary.extend('./src/config.json');
   // StyleDictionaryExtended.buildAllPlatforms();
   StyleDictionary.buildAllPlatforms();
 
@@ -57,4 +57,4 @@ StyleDictionary.registerFilter({
   //     }
   // },
 
-console.log("Complete!");
+console.log("Complete! That's some mighty fine codin'!");

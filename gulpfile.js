@@ -51,18 +51,19 @@ function runTrans() {
       
       tokens = JSON.parse(data);
       
-      var theme = JSON.stringify(tokens.base.themeToShow.value);
-      currentTheme = theme.substring(theme.indexOf(".") + 1, theme.indexOf("}"));
+      // var theme = JSON.stringify(tokens.base.themeToShow.value);
+      // currentTheme = theme.substring(theme.indexOf(".") + 1, theme.indexOf("}"));
       
-      var setsToUse = [];
-      // Create Current Theme 
-      for (const theme in tokens.$themes) {
-        for (const set in tokens.$themes[theme].selectedTokenSets) {
-          if(tokens.$themes[theme].name == currentTheme) {
-            setsToUse.push(set);
-          }
-        }
-      }
+      var setsToUse = tokens.core;
+
+      // // Create Current Theme 
+      // for (const theme in tokens.$themes) {
+      //   for (const set in tokens.$themes[theme].selectedTokenSets) {
+      //     if(tokens.$themes[theme].name == currentTheme) {
+      //       setsToUse.push(set);
+      //     }
+      //   }
+      // }
       
       
       // Start Token Transformer ———————————–
