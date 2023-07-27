@@ -1,1 +1,0 @@
-export { IconTopic } from "./IconTopic";

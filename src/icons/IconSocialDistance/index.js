@@ -1,1 +1,0 @@
-export { IconSocialDistance } from "./IconSocialDistance";

@@ -1,1 +1,0 @@
-export { IconDeck } from "./IconDeck";

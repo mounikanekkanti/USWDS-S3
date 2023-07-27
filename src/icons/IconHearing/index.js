@@ -1,1 +1,0 @@
-export { IconHearing } from "./IconHearing";

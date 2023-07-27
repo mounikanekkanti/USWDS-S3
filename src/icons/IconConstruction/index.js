@@ -1,1 +1,0 @@
-export { IconConstruction } from "./IconConstruction";

@@ -1,1 +1,0 @@
-export { IconHistory } from "./IconHistory";

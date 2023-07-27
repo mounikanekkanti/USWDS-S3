@@ -1,1 +1,0 @@
-export { IconHotel } from "./IconHotel";

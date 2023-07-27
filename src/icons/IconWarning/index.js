@@ -1,1 +1,0 @@
-export { IconWarning } from "./IconWarning";

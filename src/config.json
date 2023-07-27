@@ -1,18 +1,15 @@
 {
-  "source": ["src/assets/tokenTrans.json"],
+  "source": ["token/tokenTrans.json"],
   "platforms": {
-      "scss": {
-          "transformGroup": "scss",
+      "css": {
+          "transformGroup": "css",
           "buildPath": "src/assets/publicStyle/",
           "files": [
               {
-                  "destination": "_colors.scss",
-                  "format": "scss/variables",
+                  "destination": "_colors.css",
+                  "format": "css/variables",
                   "options": {
                     "outputReferences": true
-                  },
-                  "filter": {
-                      "type": "color"
                   }
               }
           ]

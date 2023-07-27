@@ -1,1 +1,0 @@
-export { IconTranslate } from "./IconTranslate";

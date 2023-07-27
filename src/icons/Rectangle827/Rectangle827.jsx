@@ -15,7 +15,7 @@ export const Rectangle827 = ({ className }) => {
       width="161"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path className="path" d="M0 20.3175L80.5 0L161 20.3175V64H0V20.3175Z" fill="#005EA2" />
+      <path className="path" d="M0 20.3175L80.5 0L161 20.3175V64H0V20.3175Z" fill="var(--colors-primary-primary)" />
     </svg>
   );
 };

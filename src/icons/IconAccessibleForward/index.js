@@ -1,1 +1,0 @@
-export { IconAccessibleForward } from "./IconAccessibleForward";

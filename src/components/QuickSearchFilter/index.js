@@ -1,1 +1,0 @@
-export { QuickSearchFilter } from "./QuickSearchFilter";

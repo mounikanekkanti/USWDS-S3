@@ -1,1 +1,0 @@
-export { IconSupport } from "./IconSupport";

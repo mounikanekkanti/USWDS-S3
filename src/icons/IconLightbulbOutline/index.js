@@ -1,1 +1,0 @@
-export { IconLightbulbOutline } from "./IconLightbulbOutline";

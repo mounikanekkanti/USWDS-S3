@@ -1,1 +1,0 @@
-export { IconLanguage } from "./IconLanguage";

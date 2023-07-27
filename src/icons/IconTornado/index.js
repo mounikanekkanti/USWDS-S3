@@ -1,1 +1,0 @@
-export { IconTornado } from "./IconTornado";

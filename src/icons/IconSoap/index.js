@@ -1,1 +1,0 @@
-export { IconSoap } from "./IconSoap";

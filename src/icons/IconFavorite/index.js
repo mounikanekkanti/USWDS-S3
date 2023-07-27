@@ -1,1 +1,0 @@
-export { IconFavorite } from "./IconFavorite";

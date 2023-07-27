@@ -1,1 +1,0 @@
-export { IconAlternateEmail } from "./IconAlternateEmail";

@@ -1,1 +1,0 @@
-export { IconFlickr } from "./IconFlickr";

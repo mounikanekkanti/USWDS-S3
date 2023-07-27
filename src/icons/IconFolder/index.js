@@ -1,1 +1,0 @@
-export { IconFolder } from "./IconFolder";

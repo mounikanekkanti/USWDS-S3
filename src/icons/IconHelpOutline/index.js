@@ -1,1 +1,0 @@
-export { IconHelpOutline } from "./IconHelpOutline";

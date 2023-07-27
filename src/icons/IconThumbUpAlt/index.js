@@ -1,1 +1,0 @@
-export { IconThumbUpAlt } from "./IconThumbUpAlt";

@@ -1,1 +1,0 @@
-export { IconLocalPharmacy } from "./IconLocalPharmacy";

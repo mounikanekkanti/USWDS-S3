@@ -1,1 +1,0 @@
-export { TopicSelected } from "./TopicSelected";

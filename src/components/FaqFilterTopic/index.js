@@ -1,1 +1,0 @@
-export { FaqFilterTopic } from "./FaqFilterTopic";

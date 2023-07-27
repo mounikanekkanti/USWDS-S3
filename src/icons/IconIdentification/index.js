@@ -1,1 +1,0 @@
-export { IconIdentification } from "./IconIdentification";

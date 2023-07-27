@@ -1,1 +1,0 @@
-export { IconPhotoCamera } from "./IconPhotoCamera";

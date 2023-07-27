@@ -1,1 +1,0 @@
-export { IconDoNotTouch } from "./IconDoNotTouch";

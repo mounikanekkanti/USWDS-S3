@@ -1,1 +1,0 @@
-export { IconAccountBalance } from "./IconAccountBalance";

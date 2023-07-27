@@ -1,1 +1,0 @@
-export { IconFilterAlt } from "./IconFilterAlt";

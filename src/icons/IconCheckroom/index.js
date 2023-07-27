@@ -1,1 +1,0 @@
-export { IconCheckroom } from "./IconCheckroom";

@@ -1,1 +1,0 @@
-export { IconUnfoldLess } from "./IconUnfoldLess";

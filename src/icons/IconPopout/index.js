@@ -1,1 +1,0 @@
-export { IconPopout } from "./IconPopout";

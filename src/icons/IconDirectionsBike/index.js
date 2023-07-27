@@ -1,1 +1,0 @@
-export { IconDirectionsBike } from "./IconDirectionsBike";

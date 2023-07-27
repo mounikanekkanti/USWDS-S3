@@ -1,1 +1,0 @@
-export { IconSortArrow } from "./IconSortArrow";

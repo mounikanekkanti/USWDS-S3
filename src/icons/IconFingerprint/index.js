@@ -1,1 +1,0 @@
-export { IconFingerprint } from "./IconFingerprint";

@@ -1,1 +1,0 @@
-export { IconAttachMoney } from "./IconAttachMoney";

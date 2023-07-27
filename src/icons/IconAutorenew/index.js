@@ -1,1 +1,0 @@
-export { IconAutorenew } from "./IconAutorenew";

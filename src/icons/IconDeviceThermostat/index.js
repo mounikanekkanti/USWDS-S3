@@ -1,1 +1,0 @@
-export { IconDeviceThermostat } from "./IconDeviceThermostat";
