@@ -1,1 +1,0 @@
-export { IconSanitizer } from "./IconSanitizer";

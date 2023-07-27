@@ -1,1 +1,0 @@
-export { IconWifi } from "./IconWifi";

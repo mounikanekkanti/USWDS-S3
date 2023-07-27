@@ -1,1 +1,0 @@
-export { IconMap } from "./IconMap";

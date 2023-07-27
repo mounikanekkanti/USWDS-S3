@@ -1,1 +1,0 @@
-export { IconCoronavirus } from "./IconCoronavirus";

@@ -1,1 +1,0 @@
-export { IconZoomOut } from "./IconZoomOut";

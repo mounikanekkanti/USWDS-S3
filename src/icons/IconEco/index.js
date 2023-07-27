@@ -1,1 +1,0 @@
-export { IconEco } from "./IconEco";

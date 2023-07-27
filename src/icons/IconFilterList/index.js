@@ -1,1 +1,0 @@
-export { IconFilterList } from "./IconFilterList";

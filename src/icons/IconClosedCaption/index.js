@@ -1,1 +1,0 @@
-export { IconClosedCaption } from "./IconClosedCaption";

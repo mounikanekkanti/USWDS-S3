@@ -1,1 +1,0 @@
-export { IconCalendarToday } from "./IconCalendarToday";

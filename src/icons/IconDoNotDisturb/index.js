@@ -1,1 +1,0 @@
-export { IconDoNotDisturb } from "./IconDoNotDisturb";

@@ -1,1 +1,0 @@
-export { IconUpdate } from "./IconUpdate";

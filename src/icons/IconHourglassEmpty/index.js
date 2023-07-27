@@ -1,1 +1,0 @@
-export { IconHourglassEmpty } from "./IconHourglassEmpty";

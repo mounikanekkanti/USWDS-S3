@@ -1,1 +1,0 @@
-export { IconInsights } from "./IconInsights";

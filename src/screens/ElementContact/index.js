@@ -1,1 +1,0 @@
-export { ElementContact } from "./ElementContact";

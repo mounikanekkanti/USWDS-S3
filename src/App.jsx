@@ -1,11 +1,14 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ElementHomePage } from "./screens/ElementHomePage";
-import { ElementGlossary } from "./screens/ElementGlossary";
-import { ElementContact } from "./screens/ElementContact";
-import { ElementDataSet } from "./screens/ElementDataSet";
-import { ElementReleaseNotes } from "./screens/ElementReleaseNotes";
-import { ElementDataExplorer } from "./screens/ElementDataExplorer";
+import { Element } from "./screens/Element";
+import { ElementScreen } from "./screens/ElementScreen";
+import { DivWrapper } from "./screens/DivWrapper";
+import { Screen4 } from "./screens/Screen4";
+import { Screen5 } from "./screens/Screen5";
+import { Screen6 } from "./screens/Screen6";
+import { Screen7 } from "./screens/Screen7";
+import { Screen8 } from "./screens/Screen8";
 
 const router = createBrowserRouter([
   {
@@ -17,24 +20,36 @@ const router = createBrowserRouter([
     element: <ElementHomePage />,
   },
   {
-    path: "/10-glossary",
-    element: <ElementGlossary />,
+    path: "/03",
+    element: <Element />,
   },
   {
-    path: "/09-contact",
-    element: <ElementContact />,
+    path: "/02",
+    element: <ElementScreen />,
   },
   {
-    path: "/03-data-set-3",
-    element: <ElementDataSet />,
+    path: "/05",
+    element: <DivWrapper />,
   },
   {
-    path: "/07-release-notes",
-    element: <ElementReleaseNotes />,
+    path: "/06",
+    element: <Screen4 />,
   },
   {
-    path: "/08-data-explorer",
-    element: <ElementDataExplorer />,
+    path: "/04",
+    element: <Screen5 />,
+  },
+  {
+    path: "/07",
+    element: <Screen6 />,
+  },
+  {
+    path: "/09",
+    element: <Screen7 />,
+  },
+  {
+    path: "/08",
+    element: <Screen8 />,
   },
 ]);
 

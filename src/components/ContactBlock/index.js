@@ -1,1 +1,0 @@
-export { ContactBlock } from "./ContactBlock";

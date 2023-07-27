@@ -1,1 +1,0 @@
-export { ElementGlossary } from "./ElementGlossary";

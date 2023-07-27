@@ -1,1 +1,0 @@
-export { IconLinegraph } from "./IconLinegraph";

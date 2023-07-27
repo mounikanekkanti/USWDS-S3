@@ -1,1 +1,0 @@
-export { IconLocalLibrary } from "./IconLocalLibrary";

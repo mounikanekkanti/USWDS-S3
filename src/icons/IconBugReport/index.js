@@ -1,1 +1,0 @@
-export { IconBugReport } from "./IconBugReport";

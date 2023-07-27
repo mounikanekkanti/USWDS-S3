@@ -1,1 +1,0 @@
-export { IconAttachFile } from "./IconAttachFile";

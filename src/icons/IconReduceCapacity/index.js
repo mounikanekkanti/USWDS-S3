@@ -1,1 +1,0 @@
-export { IconReduceCapacity } from "./IconReduceCapacity";

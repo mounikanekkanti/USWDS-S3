@@ -1,1 +1,0 @@
-export { IconPriorityHigh } from "./IconPriorityHigh";

@@ -1,1 +1,0 @@
-export { IconCleanHands } from "./IconCleanHands";

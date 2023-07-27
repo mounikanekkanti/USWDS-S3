@@ -1,1 +1,0 @@
-export { IconScience } from "./IconScience";

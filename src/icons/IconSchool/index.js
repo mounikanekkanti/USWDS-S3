@@ -1,1 +1,0 @@
-export { IconSchool } from "./IconSchool";

@@ -1,1 +1,0 @@
-export { IconShield } from "./IconShield";

@@ -1,1 +1,0 @@
-export { IconLockOutline } from "./IconLockOutline";

@@ -1,1 +1,0 @@
-export { IconElectricalServices } from "./IconElectricalServices";

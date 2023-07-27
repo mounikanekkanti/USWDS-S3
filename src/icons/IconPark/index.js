@@ -1,1 +1,0 @@
-export { IconPark } from "./IconPark";

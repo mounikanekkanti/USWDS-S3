@@ -1,1 +1,0 @@
-export { IconNotificationsNone } from "./IconNotificationsNone";

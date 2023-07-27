@@ -1,1 +1,0 @@
-export { IconConnectWithoutContact } from "./IconConnectWithoutContact";

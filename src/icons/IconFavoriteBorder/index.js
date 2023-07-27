@@ -1,1 +1,0 @@
-export { IconFavoriteBorder } from "./IconFavoriteBorder";

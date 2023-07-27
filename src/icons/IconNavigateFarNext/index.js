@@ -1,1 +1,0 @@
-export { IconNavigateFarNext } from "./IconNavigateFarNext";

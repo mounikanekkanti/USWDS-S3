@@ -1,1 +1,0 @@
-export { IconSpellcheck } from "./IconSpellcheck";

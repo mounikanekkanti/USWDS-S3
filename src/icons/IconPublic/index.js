@@ -1,1 +1,0 @@
-export { IconPublic } from "./IconPublic";

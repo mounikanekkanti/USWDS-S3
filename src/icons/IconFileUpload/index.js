@@ -1,1 +1,0 @@
-export { IconFileUpload } from "./IconFileUpload";

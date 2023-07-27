@@ -1,1 +1,0 @@
-export { IconEmojiEvents } from "./IconEmojiEvents";

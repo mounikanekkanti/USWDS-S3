@@ -1,1 +1,0 @@
-export { IconDragHandle } from "./IconDragHandle";

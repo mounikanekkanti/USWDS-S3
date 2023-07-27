@@ -1,1 +1,0 @@
-export { IconLock } from "./IconLock";

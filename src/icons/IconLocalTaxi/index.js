@@ -1,1 +1,0 @@
-export { IconLocalTaxi } from "./IconLocalTaxi";

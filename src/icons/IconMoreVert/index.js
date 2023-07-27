@@ -1,1 +1,0 @@
-export { IconMoreVert } from "./IconMoreVert";

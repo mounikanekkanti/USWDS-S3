@@ -1,1 +1,0 @@
-export { IconLastPage } from "./IconLastPage";
