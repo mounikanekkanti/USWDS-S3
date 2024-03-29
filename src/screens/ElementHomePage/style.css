@@ -140,7 +140,7 @@
 }
 
 .element-home-page .text-wrapper-5 {
-  color: var(--colors-primary-primary);
+  color: var( --base-colors-Primary-Primary-value);
   font-family: "Public Sans", Helvetica;
   font-size: 12px;
   font-weight: 400;
@@ -164,7 +164,7 @@
 .element-home-page .right-side-menu-wrapper {
   align-items: flex-end;
   align-self: stretch;
-  background-color: var(--colors-primary-primary);
+  background-color: var( --base-colors-Primary-Primary-value);
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
